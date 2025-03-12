@@ -60,10 +60,11 @@ if (ImGui::Selectable("2460x1080")) currentChoice = 8;
 if (ImGui::Selectable("小米14专属")) currentChoice = 9;
 if (ImGui::Selectable("3168x1440")) currentChoice = 10;
 if (ImGui::Selectable("2800x1968")) currentChoice = 11;
+```
 
 主体适配分辨率十几个函数单独包装到了保存绘制参数的头文件中，不会再UI设计菜单文件造成代码紊乱的视觉效果。
 
-非常轻松看懂代码，好的代码整洁性请放心，泪心亲自写了很多注释和删除了不相干代码！
+<span style="color: green;">非常轻松看懂代码，好的代码整洁性请放心，泪心亲自写了很多注释和删除了不相干代码！</span>
 
 解析内置端口绘制问题
 验证百度后可以根据<h1>标题内容进行百度验证，如若标题1内容和本地文件字符串变量不匹配，就直接结束！
@@ -72,7 +73,7 @@ if (ImGui::Selectable("2800x1968")) currentChoice = 11;
 
 加密编译后即可隐藏一切特征，无需害怕服务器被攻击！
 
-解析优点：无视一切破解，也无视一切流量攻击。泪心解析源码并带有百度验证网页。
+解析优点：<span style="color: green;">无视一切破解，也无视一切流量攻击。泪心解析源码并带有百度验证网页。</span>
 
 端口APP任你如何加密加固，服务器ip地址还是随便破解，随便攻击ddos服务器。
 
